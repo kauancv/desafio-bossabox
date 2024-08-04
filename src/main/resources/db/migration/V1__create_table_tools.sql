@@ -1,0 +1,6 @@
+CREATE TABLE tools (
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+    title VARCHAR(255) NOT NULL ,
+    link VARCHAR(255) NOT NULL ,
+    description TEXT NOT NULL
+);
